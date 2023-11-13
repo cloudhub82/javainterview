@@ -20,7 +20,7 @@ public class Exercise {
 
 	private static void optionalTest() {
 		Optional<Double> price = Optional.ofNullable(null);
-		price.orElseThrow(() -> new RuntimeException("Bad Code"));// java.lang.RuntimeException: Bad Code
+		price.orElseThrow(() -> new RuntimeException("Bad Code1"));// java.lang.RuntimeException: Bad Code
 
 		List<AnotherBook> books = Arrays.asList(new AnotherBook("Gone with the wind", "Fiction"),
 				new AnotherBook("Bourne Ultimatum", "Thriller"), new AnotherBook("The Client", "Thriller"));

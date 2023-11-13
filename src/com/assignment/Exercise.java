@@ -41,7 +41,7 @@ public class Exercise {
 	}
 
 	private static void toMapTest() {
-		List<Book> books = Arrays.asList(new Book("Atlas Shrugged", 10.0), new Book("Freedom at Midnight", 5.0),
+		List<Book> books = Arrays.asList(new Book("Atlas Shruggecd", 10.0), new Book("Freedom at Midnight", 5.0),
 				new Book("Gone with the wind", 5.0));
 
 		Map<String, Double> bookMap = books.stream().collect(Collectors.toMap(p -> p.getTitle(), p -> p.getPrice()));
